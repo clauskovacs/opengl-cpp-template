@@ -1,6 +1,6 @@
 ############################################################
 CXX = g++
-CXXFLAGS = -g -Wall -Wextra -pedantic -std=c++17 -I $(HEADERINCLUDE)
+CXXFLAGS = -g -Wall -Wextra -pedantic -lGL -lGLU -lglut -std=c++17 -I $(HEADERINCLUDE)
 EXC = build
 OBJ = obj
 HEADERINCLUDE = /home/itsme/Desktop/git_repos/opengl-cpp-template/include
