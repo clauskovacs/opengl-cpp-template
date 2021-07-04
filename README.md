@@ -1,5 +1,5 @@
 # opengl-cpp-template
-A template for graphical programming (OpenGL) using C++.
+A template program for graphical programming (OpenGL and glut) using C++.
 
 ## Description
 -
