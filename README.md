@@ -1,10 +1,18 @@
 # opengl-template
 
-A template program for graphical programming using GLUT (OpenGL Utility Toolkit) written in C++.
-
-## Description
-
 This program serves as a template for graphical applications. The program renders a plane in the origin and it provides a simple HUD to display, e.g., text. Handling keystrokes as well as mouse inputs (zoom via mousewheel as well as drag and drop rotation on the left mouse button) are available.
+
+## Folder Structure
+
+This project has the following folder structure
+```
+.
+├── build (compilated executables)
+├── doc (documentation)
+├── include (header files: *.hpp)
+├── obj (object files created during compilation: *.obj)
+└── src (source files: *.cpp)
+```
 
 ## Dependencies
 
@@ -15,7 +23,7 @@ To run the program, installation of (free)glut is mandatory. Additional informat
 
 ## Running the Program
 
-This program can be run using the provided makefile.
+This program can be run using the provided makefile (using the commands `make` and `make run`).
 
 ## Additional Information
 
