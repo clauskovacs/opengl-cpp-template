@@ -29,6 +29,6 @@ This program can be run using the provided makefile (using the commands `make` a
 
 When changing the folder structure, e.g., when copying this repository make sure to correct the header include path in the makefile (see variable`HEADERINCLUDE`).
 
-A video of the program in action (with some additional objects rendered) can be found at <https://www.youtube.com/watch?v=k9RCvI3zMAs>. An image of the program output, as provided in this repository, can be seen in the the image below
+A video of the program in action (with some additional objects rendered) can be found at <https://www.youtube.com/watch?v=k9RCvI3zMAs>. An image produced from the program, as provided in this repository, can be seen in the image below
 
 ![image showing the output of this repository (flat plane at the origin, HUD information showing rotation parameters as well as the frames per seconds)](doc/example_image.png "image showing the origin in the center and the HUD in the top left")
